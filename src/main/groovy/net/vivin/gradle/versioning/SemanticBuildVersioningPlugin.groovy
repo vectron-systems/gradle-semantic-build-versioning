@@ -6,7 +6,7 @@ import org.gradle.api.initialization.Settings
 import org.gradle.api.logging.Logger
 import org.gradle.api.logging.Logging
 
-class SemanticBuildVersioningPlugin implements Plugin<Plugin> {
+class SemanticBuildVersioningPlugin implements Plugin<Project> {
     private final Logger logger = Logging.getLogger('semantic-build-versioning')
 
     @Override
